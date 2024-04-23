@@ -29,7 +29,7 @@ void inserisci(int nuovo_dato, int num_dati_ord, int *vett)
 		return;
 	}
 
-	for (int i = 0; i < num_dati_ord; ++i)  {
+	for (int i = 0; i < num_dati_ord; i++)  {
 		if (nuovo_dato < vett[i])  {
 			// sposta da vett[i] in poi di un posto sulla destra
 			// prima di inserire il nuovo_dato
