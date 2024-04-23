@@ -45,7 +45,7 @@ void inserisci(int nuovo_dato, int num_dati_ord, int *vett)
 
 void ordina_dati(const int num_dati, const int *dati_non_ordinati, int *dati_ordinati)
 {
-	for (int i = 0; i < num_dati; ++i)
+	for (int i = 0; i < num_dati - 1; ++i)
 		inserisci(dati_non_ordinati[i], i, dati_ordinati);
 }
 
