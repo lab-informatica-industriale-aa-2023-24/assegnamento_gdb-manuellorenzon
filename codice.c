@@ -37,6 +37,9 @@ void inserisci(int nuovo_dato, int num_dati_ord, int *vett)
 			vett[i] = nuovo_dato;
 			return;
 		}
+		else {
+			vett[num_dati_ord] = nuovo_dato;
+		}
 	}
 }
 
